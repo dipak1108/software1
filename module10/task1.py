@@ -25,7 +25,7 @@ class Elevator:
         else:
             print(f"Elevator is already at the top floor {self.top_floor}.")
 
-    # Method to move the elevator one floor down
+
     def floor_down(self):
         if self.current_floor > self.bottom_floor:
             self.current_floor -= 1
